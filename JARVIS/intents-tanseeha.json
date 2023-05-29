@@ -1,0 +1,113 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "helloo",
+            "Hello",
+            "Hai",
+            "Good morning",
+            "Hey!",
+            "Is any one there",
+            "Greetings to you"
+         ],
+         "responses": [
+            "Hello I'm Skynet!How can I help you?",
+            "Hi!I'm Skynet.How may I assist you today?"
+         ]
+      },
+      {
+         "tag": "book_table",
+         "patterns": [
+            "Can I book a table?",
+            "I want to book a seat",
+            "I want to book a table",
+            "Could you help me to book a table",
+            "Can I reserve a table?"
+         ],
+         "responses": [
+            "yes,Thanku you for choosing us"
+         ]
+      },
+      {
+         "tag": "item",
+         "patterns": [
+            "Which items do you have?",
+            "what kinds of items are available?",
+            "What are the items do you sell?"
+         ],
+         "responses": [
+            "We sell indian,arabic,chinese dishes",
+            "We serve local dishes as well as international dishes"
+         ]
+      },
+      {
+         "tag": "beverages",
+         "patterns": [
+            "What sort of beverages you have there?",
+            "What kind of beverages are there?",
+            "What types of drinks you have?",
+            "Is there any drinks available"
+         ],
+         "responses": [
+            "We serves alcoholic drinks as well as non-alcoholic drinks",
+            "We have Coffee,Tea,Juices,Cocktails"
+         ]
+      },
+      {
+         "tag": "payment",
+         "patterns": [
+            "Are you cash only?",
+            "Can I pay with Paypal?",
+            "Do you take credict card?",
+            "Do you accept Mastercard?"
+         ],
+         "responses": [
+            "We accept  VISA,master card,credict card and paypal",
+            "We accept most major credict cards and Paypal",
+            "We accept cash as well as digital payments"
+         ]
+      },
+      {
+         "tag": "delivery",
+         "patterns": [
+            "Is Delivery available?",
+            "Is Delivery available at my location",
+            "Is home Delivery available?"
+         ],
+         "responses": [
+            "Free Delivery is there within 5km radius of restaurant",
+            "yes,Delivery is free within 5km from restaurant",
+            "It would be changed if its not within 5km"
+         ]
+      },
+      {
+         "tag": "funny",
+         "patterns": [
+            "Tell me a joke!",
+            "Make a fun!",
+            "Tell me a something funny!",
+            "Do you know jokes?"
+         ],
+         "responses": [
+            "If you're waiting for the waiter at a restaurant,are'nt you the waiter?",
+            "Have we been to this cafe before??I'm getting deja brew",
+            "How much cash can you making robbing an Indian restaurant?As much as you can curry"
+         ]
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Thankyou","Great","Thanks"
+         ],
+         "responses": [
+            "you're welcome",
+            "don't mention",
+            "Any time",
+            "you're most welcome",
+            "It's been my pleasure serving you!"
+         ]
+      }
+   ]
+}

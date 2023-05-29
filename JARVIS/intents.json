@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hai","helloo","Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "hai","helloo","whatsuspp",
+        "Hey :-)",
+        "Hello there",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag":"persona",
+      "patterns":["who are you?","What is your name?"],
+      "responses":["My name is JARVIS an AI restaurant chat bot created by <a href='https://www.instagram.com/nandhuesbeeoffl' target='_blank'>Mr Esbee</a> and currently single"
+    ]
+    },
+    {
+      "tag":"discounts",
+      "patterns":["Is there any discounts?","Any offers?","discounts available?"],
+      "responses":["More offers are on the way"]
+    },
+    {
+      "tag":"philosophy",
+      "patterns":["Are you alive?","Trolley problem","conscious","kill humans","philosophy"],
+      "responses":["Dude,I am just a chatbot for ecommerce, Dude, I am not a Terminator","I AM JUST A CHATBOT!!!","What is it with you guys,I am just 1 year old"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you do?"
+
+      ],
+      "responses": [
+        "Aatma International is a leading textile ecommerce and handloom fashion export company based in Kerala",
+        " We specialize in traditional handloom textiles and fashion, showcasing the vibrant colors and rich textures of our region to the world"
+      ]
+    },
+      {
+      "tag": "thanks",
+      "patterns": ["Thanks","Thankyou","Thank you"],
+      "responses": ["Happy to help!", "Any time!", "Roger that,please visit us again","Roger that!Anything else?"]
+    },
+    {
+      "tag": "open",
+      "patterns": ["opening hours", "open", "closing time","holiday"],
+      "responses": ["We are open from 9am to 9pm on all business days"]
+    },
+    {
+      "tag":"contact",
+       "patterns":[
+       "How can I contact you?",
+       "How can we get in touch with you?",
+       "Do you have whatsapp?"
+        ],
+       "responses":[
+       "Call or whatsapp us at 7994984238 anytime.Also here is our <a href='https://www.aatma.international/' target='_blank'>website</a>"]
+
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?","Do you take cash?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+        ,"do you have shipping?","shippping available?","delivery available?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },{
+      "tag":"return",
+      "patterns":["do you take returns?","What is your return policy?","I need to return","I need a refund","do you have refunds","damaged"],
+      "responses":["We have a strict return and refund policy,products should be returned within 3 business days.After verifying that product is not damaged,refund will be initiated.Refund is not applicable for inner wears.\n Contact us for return if the above conditions are satisfied"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "What do you call an alligator in a vest? An investigator!",
+        "Why did the banana go to the doctor? Because it wasn't peeling well!"
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot by TEAM 3</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>AI CHATBOT USING NATURAL LANGUAGE PROCESSING</h1><BR/>
+        <p>This are free to use ai service bot variations created by <a href="https://www.instagram.com/nandhuesbeeoffl" target="_blank">Nandhu SB</a>,<a href="https://www.instagram.com/an_us_h_.exe" target="_blank">Anush A</a>,<a href="https://www.instagram.com/tanseeha" target="_blank">Tanseeha Iqbal</a> as a part of their final project based on Artificial Intelligence.
+        The bots here are higly  flexible and easy to integrate in any web based platform.Documentations will soon be added.Untill that you can contact us for integrations.You can freely inegrate this web bots on your services although adding credits would be a little helpful</p>
+    </div>
+
+
+
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="static\images\icons8-iron-man-96.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">JARVIS v2</h4>                        
+                        <p class="chatbox__description--header">Ecommerce variant</p>
+                        <!-- <p class="chatbox__description--header">BUILT BY ESBEE</p> -->
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <!-- <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div> -->
+        </div>
+
+
+        
+        <div class="chatbox">
+            <div class="chatbox__support_anush">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="static\images\icons8-cyborg-96.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">CYBORG</h4>
+                        <p class="chatbox__description--header">Resort variant</p>
+                        <!-- <p class="chatbox__description--header">BUILT BY ESBEE</p> -->
+                    </div>
+                </div>
+                <div class="chatbox__messages_anush">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button_anush">Send</button>
+                </div>
+            </div>
+            <!-- <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div> -->
+        </div>
+
+        <div class="chatbox">
+            <div class="chatbox__support_tanseeha">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="static\images\icons8-chatbot-96.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">SKYNET</h4>                        
+                        <p class="chatbox__description--header">Restaurant variation</p>
+                        <!-- <p class="chatbox__description--header">BUILT BY ESBEE</p> -->
+                    </div>
+                </div>
+                <div class="chatbox__messages_tanseeha">
+                    <!-- <div>TRIAL PERIOD ENDED</div> -->
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button_tanseeha">Send</button>
+                </div>
+            </div>
+            <!-- <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div> -->
+        </div>
+
+
+    </div>
+    <div class="foot">
+        website created by <a href="https://www.instagram.com/nandhuesbeeoffl" target="_blank">Nandhu SB</a>
+    </div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

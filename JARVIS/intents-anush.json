@@ -1,0 +1,106 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey"
+        ],
+        "responses": [
+          "Hi there! How can I assist you today?"
+        ]
+      },
+      {
+        "tag": "check_availability",
+        "patterns": [
+          "Do you have any available rooms?",
+          "Can i book a room?",
+          "Do you have available rooms now?",
+          "Can i have a room to stay?"
+        ],
+        "responses": [
+          "Yes, we have available rooms ",
+          "yes, rooms are available",
+          "Rooms are available "
+        ]
+      },
+      {
+        "tag": "book_room",
+        "patterns": [
+          "I would like to book a room",
+          "How do I book a room?",
+          "Can I make a reservation?"
+        ],
+        "responses": [
+          "Sure! you can book rooms via our customer care number [******]",
+          "You can book rooms by contacting our customer care number [*******]"
+        ]
+      },
+      {
+        "tag": "room_type",
+        "patterns": [
+          "What types of rooms do you have ?",
+          "What are the room options?",
+          "Can you tell me about the different rooms?",
+          "what types of rooms you have there ?"
+        ],
+        "responses": [
+          "We have standard rooms, suites, and natatorium available.",
+          "we have suites ,natatorium ,villas,"
+        ]
+      },
+      {
+        "tag": "amenities",
+        "patterns": [
+          "What amenities do you offer?",
+          "What is included in the room rate?",
+          "Are there any additional fees?"
+        ],
+        "responses": [
+          "We offer various amenities such as swimming pools, restaurants, spa services, and fitness centers.",
+          "We offer swimming pools,spa services"
+        ]
+      },
+      {
+        "tag": "cancel_reservation",
+        "patterns": [
+          "How do I cancel my reservation?",
+          "Can I get a refund?",
+          "What is your cancellation policy?",
+          "how can i cancel my reservation",
+          "is there any way to cancel the reservation"
+        ],
+        "responses": [
+          "To cancel your reservation or request a refund, please contact our customer service team at [phone number or email address].",
+          "cancellation can be done by contacting our customer service number [**********]"
+        ]
+      },
+      {
+        "tag": "thank_you",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Appreciate it"
+        ],
+        "responses": [
+          "You're welcome! Is there anything else you need help with?",
+          "Happy to help you",
+          "I am always happy to help "
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "Goodbye!, Have a wonderful day"
+        ]
+      }
+
+    ]
+}
